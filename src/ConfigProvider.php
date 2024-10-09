@@ -34,9 +34,9 @@ class ConfigProvider
             'publish' => [
                 [
                     'id' => 'config',
-                    'description' => 'The config for HyperfFlysystem.',
-                    'source' => __DIR__ . '/../publish/sts.php',
-                    'destination' => dirname(__DIR__, 1) . '/config/autoload/sts.php',
+                    'description' => 'The config for EasySts.',
+                    'source' => __DIR__ . '/publish/sts.php',
+                    'destination' => BASE_PATH . '/config/autoload/sts.php',
                 ],
             ],
         ];
