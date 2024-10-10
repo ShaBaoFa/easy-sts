@@ -46,6 +46,8 @@ return [
             'driver' => CtyunStsAdapterFactory::class,
             'accessId' => env('CTYUN_STS_ACCESS_ID'),
             'accessSecret' => env('CTYUN_STS_ACCESS_SECRET'),
+            'endpoint' => env('CTYUN_STS_ENDPOINT', 'oos-cn-iam.ctyunapi.cn'),
+            'durationSeconds' => env('CTYUN_STS_DURATION_SECONDS', 3600),
         ],
     ],
 ];
