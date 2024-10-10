@@ -1,14 +1,4 @@
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-</head>
-<p align="center">
-  <strong style="font-size: 32px; font-family: 'Poppins', sans-serif;
-                  background: linear-gradient(to right, #1E90FF, #FFFFFF);
-                  -webkit-background-clip: text;
-                  color: transparent;">
-    EasySts
-  </strong>
-</p>
+# EasySts
 
 ---
 
