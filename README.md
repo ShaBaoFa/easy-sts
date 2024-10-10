@@ -107,7 +107,9 @@ return [
 > - 所以我在 **`easySts`** 项目里 我接口中增加了各个不同的服务的 `policy` 的生成用接口。
 
 ### 默认配置
-
+在 **`Hyperf`** 下可以使用,因为在 `ConfigProvider` 已经做了映射配置。
+如果你想在 `Laravel` 或者别的框架中使用默认配置的写法的话,以 `Laravel` 举例，可以写一个 `ServiceProvider` 类，并在 `register` 方法中注册即可。
+具体写法可以参照我另外一个包 [**Laravel-passport-cache**](https://github.com/ShaBaoFa/laravel-passport-cache/blob/main/src/CacheServiceProvider.php) 的 `CacheServiceProvider.php`
 ```php
 use Wlfpanda1012\CommonSts\Sts;
 
