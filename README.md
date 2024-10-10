@@ -1,7 +1,5 @@
 # EasySts
 
----
-
 <p align="center">
   <a href="https://www.php.net"><img src="https://img.shields.io/badge/php-%3E=8.0-brightgreen.svg?maxAge=2592000"></a>
   <a href="https://github.com/swoole/swoole-src"><img src="https://img.shields.io/packagist/dt/wlfpanda1012/aliyun-sts"></a>
