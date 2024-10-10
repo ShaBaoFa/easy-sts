@@ -13,15 +13,6 @@ use Wlfpanda1012\EasySts\Adapter\AliyunStsAdapterFactory;
 use Wlfpanda1012\EasySts\Adapter\CtyunStsAdapterFactory;
 use Wlfpanda1012\EasySts\Adapter\LocalStsAdapterFactory;
 
-/**
- * This file is part of Hyperf.
- *
- * @see     https://www.hyperf.io
- * @document https://hyperf.wiki
- * @contact  group@hyperf.io
- * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
- */
-
 use function Hyperf\Support\env;
 
 return [
